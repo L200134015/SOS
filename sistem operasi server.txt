@@ -1,0 +1,39 @@
+Ubuntu Server 16.04
+
+1. Runs on all major architectures - x86, x86-64, ARM v7, ARM64, POWER8 and IBM s390x (LinuxONE)
+2. ZFS stable, feature-rich file system with snapshot capabilities
+3. LXD Linux container hypervisor enhancements including QoS and resource controls (CPU, memory, block I/O, storage quota)
+4. Install Ubuntu Core Snaps
+5. First production release of DPDK - line speed kernel networking
+6. Linux 4.4 kernel and systemd service manager
+7. Certification as a guest on AWS, Microsoft Azure, Joyent, IBM and HP Cloud
+8. Updates to Tomcat (v8), Postgresql (v9.5), Docker v(1.10), Puppet (v3.8.5), Qemu (v2.5), Libvirt (v1.3.1), LXC (v2.0), and MySQL (v5.6)
+
+#############################
+
+Windows server 2012
+
+1. Work Folders
+   Work Folders bring the functionality of Dropbox to corporate servers.
+2. Desired State Configuration
+   Maintaining configuration on lots of servers has been a thorn in the side of system administrators for as long as anyone has been running lots of servers
+3. Storage Tiering
+   This might be the single most exciting new feature in Windows Server 2012 R2.
+   In essence, Storage Tiering is the ability to dynamically move chunks of stored data between 
+   different classes of storage, such as fast SSDs and slower hard drives.
+4. Storage Pinning
+   Closely related to Storage Tiering is the ability to pin selected files to a specific tier. Pinning makes it possible to ensure that files you always want on the fastest storage, such as boot disks in a Virtual Desktop Infrastructure deployment, will never be moved to the slower storage tier.
+5. Write Back Cache
+   This feature sets aside an amount of physical storage, typically on a fast SSD, to use as a write cache to help smooth out the ups and downs of I/O during write-intensive operations.
+6. Deduplication on running VMs
+   Data deduplication in Windows Server 2012 is a nice feature, but one thing it cannot do is deduplicate running virtual machines. That limitation is removed in Windows Server 2012 R2, albeit specifically for VDI (Virtual Desktop Infrastructure) deployments on SMB 3.0.
+7. Parallel rebuild
+   If you've ever had a disk fail in a RAID array, you know a disk rebuild can take many hours. And with more and more deployments of really large physical disks, the amount of time required to rebuild a drive will only get longer. Microsoft addressed the issue of lengthy CHKDSK checks in Windows Server 2012, which greatly reduced the time required to scan and repair a single disk.
+8. Workplace Join
+   Windows Server 2012 R2 addresses the need to incorporate personal devices like iPads into the enterprise environment. At the simplest level is a new Web Application Proxy that allows you to provide secure access to internal corporate websites, including SharePoint sites, to any authorized user
+9. Multitenant VPN gateway
+   Microsoft has added a number of new features to make it easier to provide secure communications between on- and off-premise networks. The new multitenant VPN gateway lets you implement site-to-site connectivity to multiple external sites via a single VPN link. This feature is aimed at both hosting providers and large organizations looking to implement connectivity with multiple sites or external organizations.
+10. Windows Server Essentials role
+	While this might not sound like a big deal, it has the potential to make life much easier for any organization with a geographically distributed network. With Windows Server 2012, you have to use a completely different installation source for Windows Server Essentials. For large organizations, this can impact both distribution strategy and configuration management.
+11.	Windows Server 2012 R2 Hyper-V highlights
+	The next version of Hyper-V brings leaner and cleaner "Gen2" VMs, improvements to Hyper-V replica, faster live migration, online VM exporting and cloning, and lots more.
